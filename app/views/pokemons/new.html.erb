@@ -1,0 +1,4 @@
+<%= simple_form_for Pokemon.new, url: {action: "create"} do |i| %>
+  Name: <%= i.text_field :name %>
+  <%= i.button :submit %>
+<% end %>
